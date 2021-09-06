@@ -1,32 +1,9 @@
-<h1 align="centre">EZILAXMUSIC V1.0 🎵</h1>
-
-### A bot that can play music on Telegram Group and Channel Voice Chats
-
-### Available on telegram as [@EzilaXMBot](https://t.me/EzilaXMBot)
-
-<p align="center">
-  <img src="https://telegra.ph/file/2d36b9db96709bd1dc633.png">
-</p>
-
-<h2> Features 🔥 </h2>
-
-- Thumbnail Support
-- Playlist Support
-- Current playback support
-- Showing track names when skipping
-- Zero downtime, Fully Stable
-- Deezer,Youtube & Saavn playback support
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Channel Music Play
-- Keyboard selection support for youtube play
 
 ## 🚀 Deployment
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/EzilaXMusicV1.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sadew451/MusicPlayer)
 
 Get pyrogram (p)  `SESSION` from here:
 
@@ -89,13 +66,6 @@ For linked group admins only:
 - `/cend` - stop music play
 - `/userbotjoinchannel` - invite assistant to your chat
 * channel is also can be used instead of c
-
-If you donlt like to play in linked channel:
- 1. Get your channel ID.
- 2. Rename your group to: Channel Music: your_channel_id
- 3. Add @EzilaXMBot as Channel admin with full perms
- 4. add helper to channel
- 5. Simply send commands in your group.
 
 ### Commands for Sudo Users ⚔️
 - `/userbotleaveall` - remove assistant from all chats
