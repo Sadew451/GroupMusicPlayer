@@ -1,8 +1,0 @@
-local.env
-*.log
-venv/
-.idea/
-*.session
-raw_files/
-downloads/
-__pycache__/
