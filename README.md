@@ -1,4 +1,4 @@
-# Music Player 📻
+# Music Player 🎶
 
 # Server is `Down`
 
