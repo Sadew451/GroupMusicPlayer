@@ -1,0 +1,49 @@
+{
+  "name": "GroupMusicPlayer",
+  "description": "A group call streaming bot made using MarshalX/tgcalls with queue & multiple chats support.",
+  "keywords": [
+    "telegram",
+    "voicechat",
+    "music",
+    "python",
+    "pyrogram",
+    "callsmusic"
+  ],
+  "repository": "https://github.com/sadew451/groupmusicplayer",
+  "logo": "https://telegra.ph/file/ca6116684f2da43130b99.jpg",
+  "env": {
+    "SESSION_NAME": {
+      "description": "A Pyrogram session string.",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather.",
+      "required": true
+    },
+    "API_ID": {
+      "description": "An app ID from @SDMyTgOrgBot.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "An app hash from @SDMyTgOrgBot.",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "10"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
