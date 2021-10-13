@@ -1,2 +1,2 @@
-# Music-Player
+# Music Player 📻
 
